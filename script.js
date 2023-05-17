@@ -11,7 +11,7 @@ function logar() {
 
 function verificaLogin(cargo, senha, login){
     if (cargo === "administrador" && senha === "admin" && login === "admin") {
-        window.open("http://www.maringa.pr.gov.br/site/", "_blank");
+        window.open("./main.html", "_blank");
     }else{
         alert("Login ou senha incorretos " + (tentativaDeLogin-1) + " Tentativas restantes");
         tentativaDeLogin--;
