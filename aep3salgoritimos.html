@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aep Engenharia de software</title>
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <link rel="icon" href="logotitulo.png" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title"><div id="logo"><img src="logoprefeitura.png" id="logo"></div>Controle de frotas</h1>
+            <section>
+                <div class="formContainer">
+                    <h1 class="center">Faça seu Login </h1>
+                        <p>Usuario:</p>
+                        <input id="login" name="usuário" placeholder="Digite seu usuário">
+                        <p>Senha : </p>
+                        <input id="senha" name="senha" placeholder="Digite sua senha">
+                        <br>
+                        <p>Cargo:</p>
+                        <select name="cargo">
+                            <option value="motorista">Motorista</option>
+                            <option value="financeiro">financeiro</option>
+                            <option value="guartita">Guarita</option>
+                            <option value="administrador">administrador</option>
+                        </select>
+                        <br>
+                        <br>
+                        <button onclick="logar()">Acessar</button>
+                </div>
+            </section>
+        </header>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
