@@ -1,7 +1,30 @@
 .menus{
-    background-color: black;
+    top: 100px;
+
     width: 50vw;
     height: 10vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
     margin-left: 23%;
+    display: flex;
+    gap: 100px;
+    position: relative;
+    
+
+}
+
+.botao{
+    background: linear-gradient(to right,#5578BA,#40A376);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top:10%;
+    left: 30%;
+    margin-left: -50px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 15%;
 }
