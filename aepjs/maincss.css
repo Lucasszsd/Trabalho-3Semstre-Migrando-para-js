@@ -1,5 +1,8 @@
+html{
+    background-color: black;
+}
 .menus{
-    top: 100px;
+    top: 30px;
 
     width: 50vw;
     height: 10vw;
@@ -28,3 +31,5 @@
     position: relative;
     border-radius: 15%;
 }
+
+
