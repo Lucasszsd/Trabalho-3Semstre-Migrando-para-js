@@ -22,3 +22,19 @@ function verificaLogin(cargo, senha, login){
 
     console.log(tentativaDeLogin);
 }
+
+
+function cadastra(){
+    window.open("./cadastro.html", "_blank");
+}
+
+
+function confereSenha(){
+
+    let senhaConfirma = getElementById('senha').value;
+    let confirmacaoConfirma = getElementById('confirmacao').value;
+
+    if (senhaConfirma != confirmacaoConfirma) {
+        alert("Senhas não conferem");
+    }
+}

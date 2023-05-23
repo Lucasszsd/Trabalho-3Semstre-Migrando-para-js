@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.inputs{
+    color: white;
+    background-color: black;
+    
+}
+p{
+    font-family: 'Pacifico', cursive;
+}
+body{
+    padding-left: 30%;
+    background: linear-gradient(to right,#5578BA,#40A376);
+    padding-top: 40px;
+}
+
+.container{
+    width: 340px;
+    height: 530px;
+    padding-left: 100px;
+    border: yellow;
+    border-radius: 20%;
+    border-style: dashed;
+    justify-content: center;
+    display: block;
+    
+}
+
+#cadastrar{
+    width: 250px;
+    height: 20px;
+}

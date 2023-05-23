@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logotitulo.png" type="image/png">
+    <link rel="stylesheet" type ="text/css" href="cadastro.css">
+    
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <p>Nome:</p>
+        <input class="inputs" id="nome" name="usuário" placeholder="Digite o nome do colaborador" size=30>
+        <p>E-mail : </p>
+        <input id="email" class="inputs" name="E-mail" placeholder="Digite o E-mail do colaborador"size=30>
+        <p>CPF:</p>
+        <input id="cpf"class="inputs" name="cpf" placeholder="Digite o CPF do colaborador"size=30>
+        </br></br>
+        <select name="cargo" class="inputs">
+            <option value="motorista">Motorista</option>
+            <option value="financeiro">financeiro</option>
+            <option value="guartita">Guarita</option>
+            <option value="administrador">administrador</option>
+        </select>
+        <p>Senha : </p>
+        <input id="senha" class="inputs" name="senha" required placeholder="Digite a senha do colaborador"  size=30>
+        <p>Digite a Senha novamente : </p>
+        <input id="confirmacao" class="inputs" name="senha" required placeholder="Digite o E-mail do colaborador" size=30>
+        </br></br>
+        <button id="cadastrar" onclick="confereSenha()">Cadastrar</button>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
