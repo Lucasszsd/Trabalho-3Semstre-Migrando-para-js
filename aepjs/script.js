@@ -28,13 +28,17 @@ function cadastra(){
     window.open("./cadastro.html", "_blank");
 }
 
+function recebeSenha(){
+    
+    let senhaConfirma = document.getElementById("senha").value;
+    let confirmacaoConfirma = document.getElementById("confirmacao").value;
+    confereSenha(senhaConfirma, confirmacaoConfirma);
+}
 
-function confereSenha(){
 
-    let senhaConfirma = getElementById('senha').value;
-    let confirmacaoConfirma = getElementById('confirmacao').value;
-
-    if (senhaConfirma != confirmacaoConfirma) {
+function confereSenha(senha,confirmacao){
+    if (senha != confirmacao) {
         alert("Senhas não conferem");
     }
 }
+
