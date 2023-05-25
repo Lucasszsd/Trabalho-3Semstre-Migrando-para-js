@@ -14,7 +14,9 @@ body{
     background: linear-gradient(to right,#5578BA,#40A376);
     padding-top: 40px;
 }
-
+#observacao{
+    display: none;
+}
 .container{
     width: 340px;
     height: 530px;

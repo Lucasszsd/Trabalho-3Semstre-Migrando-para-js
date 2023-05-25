@@ -42,3 +42,37 @@ function confereSenha(senha,confirmacao){
     }
 }
 
+function reserva(){
+    window.open("./reserva.html", "_blank");
+}
+
+function inspecao(){
+    window.open("./inspecao.html", "_blank");
+}
+
+function devolucao(){
+    window.open("./devolucao.html", "_blank");
+}
+
+function requisicoes(){
+    window.open("./requisicoes.html", "_blank");
+}
+
+function relatorios(){
+    window.open("./relatorios.html", "_blank");
+}
+
+function disponiveis(){
+    window.open("./disponiveis.html", "_blank");
+}
+
+function manutencao(){
+    window.open("./manutencao.html", "_blank");
+}
+
+function ajustes(){
+    window.open("./ajustes.html", "_blank");
+}
+
+
+
