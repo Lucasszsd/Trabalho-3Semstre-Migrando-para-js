@@ -10,7 +10,7 @@ p{
     font-family: 'Pacifico', cursive;
 }
 body{
-    padding-left: 30%;
+    padding: 35%;
     background: linear-gradient(to right,#5578BA,#40A376);
     padding-top: 40px;
 }
@@ -25,11 +25,14 @@ body{
     border-radius: 20%;
     border-style: dashed;
     justify-content: center;
-    display: block;
     
 }
 
 #cadastrar{
     width: 250px;
     height: 20px;
+}
+
+body{
+    justify-content: center;
 }
