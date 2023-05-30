@@ -11,7 +11,7 @@ function logar() {
 
 function verificaLogin(cargo, senha, login){
     if (cargo === "administrador" && senha === "admin" && login === "admin") {
-        window.open("./main.html", "_blank");
+        window.open("./main.html","_self");
     }else{
         alert("Login ou senha incorretos " + (tentativaDeLogin-1) + " Tentativas restantes");
         tentativaDeLogin--;
@@ -25,7 +25,7 @@ function verificaLogin(cargo, senha, login){
 
 
 function cadastra(){
-    window.open("./cadastro.html", "_blank");
+    window.open("./cadastro.html","_self");
 }
 
 function recebeSenha(){
@@ -43,35 +43,35 @@ function confereSenha(senha,confirmacao){
 }
 
 function reserva(){
-    window.open("./reserva.html", "_blank");
+    window.open("./reserva.html" ,"_self");
 }
 
 function inspecao(){
-    window.open("./inspecao.html", "_blank");
+    window.open("./inspecao.html","_self");
 }
 
 function devolucao(){
-    window.open("./devolucao.html", "_blank");
+    window.open("./devolucao.html","_self");
 }
 
 function requisicoes(){
-    window.open("./requisicoes.html", "_blank");
+    window.open("./requisicoes.html" ,"_self");
 }
 
 function relatorios(){
-    window.open("./relatorios.html", "_blank");
+    window.open("./relatorios.html" ,"_self");
 }
 
 function disponiveis(){
-    window.open("./disponiveis.html", "_blank");
+    window.open("./disponiveis.html","_self");
 }
 
 function manutencao(){
-    window.open("./manutencao.html", "_blank");
+    window.open("./manutencao.html", "_self");
 }
 
 function ajustes(){
-    window.open("./ajustes.html", "_blank");
+    window.open("./ajustes.html", "_self");
 }
 
 
