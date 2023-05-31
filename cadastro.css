@@ -36,3 +36,47 @@ body{
 body{
     justify-content: center;
 }
+
+li{
+    position: relative;
+    margin: 10px auto;
+    left :-100px;
+    width: 180%;
+    
+}
+ul{
+    
+    position: absolute;
+    
+    
+}
+
+.inspecao{
+    right: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.box1{
+    position: relative;
+    left: 46%;
+    margin: 10px;
+    padding: 10px;
+
+  
+    
+}
+.box2{
+    position: relative;
+    left: 46%;
+    margin: 10px;
+    padding: 10px;
+
+    
+}
+#boxtext{
+    width: 100px;
+    position: relative;
+    text-align: center;
+    left: 50%;
+}

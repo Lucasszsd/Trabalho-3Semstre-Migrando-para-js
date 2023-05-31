@@ -5,29 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logotitulo.png" type="image/png">
-    <link rel="stylesheet" type ="text/css" href="cadastro.css">    
+    <link rel="stylesheet" type ="text/css" href="cadastro.css">   
+     
     <title>Reserva</title>
 </head>
 <body>
     <div class="container">
-        <p>Motorista (CPF) :</p>
-        <input class="inputs" id="cpf" name="usuário" placeholder="Digite o nome do colaborador" size=30 >
-        <p>Data inicial : </p>
-        <input id="datainicial" class="inputs" name="datainicial" placeholder="Data de retirada"size=30 type="date">
-        <p>Data final : </p>
-        <input id="datafinal"class="inputs" name="datafinal" placeholder="Digite o CPF do colaborador"size=30 type="date">
-        </br>
-        
-        <p>Serviço : </p>
-        <select name="servico" class="inputs">
-            <option value="manutencao">Manutenção geral</option>
-            <option value="transporte">Transporte</option>
-            <option value="emergencia">Emergência</option>
-            <option value="acaosocial">Ação social</option>
-            <option value="prioritario">Prioritario</option>
-            <option value="Outros">Outros</option>
-        </select>
-        </br><br>
+        <h1 class="inspecao">Inspeção do veículo</h1>
+        <p id="boxtext">Sim  Não</p>
+   <ul>
+    <li>Placa do veículo<input class="box1" type="checkbox"><input class="box2" type="checkbox"></li>
+    <li>Pneus do veículo<input class="box1" type="checkbox"><input class="box2" type="checkbox"></li>
+    <li>Lataria do veículo<input class="box1" type="checkbox"><input class="box2" type="checkbox"></li>
+    <li>Estofado do veiculo<input class="box1" type="checkbox"><input class="box2" type="checkbox"></li>
+    <li>Bancos do veículo<input class="box1" type="checkbox"><input class="box2" type="checkbox"></li>
+    <li>Câmbio do veiculo<input class="box1" type="checkbox"><input class="box2" type="checkbox"></li>
+    <li>Outros Problemas?<input class="box1" type="checkbox"><input class="box2" type="checkbox"></li>
+   </ul>
         <input class="inputs" id="observacao" name="observacao" placeholder="Digite o nome do colaborador" size=30 >
     </div>
 <script src="./script.js"></script>
