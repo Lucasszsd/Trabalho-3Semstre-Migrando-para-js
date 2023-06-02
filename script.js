@@ -23,6 +23,9 @@ function verificaLogin(cargo, senha, login){
     console.log(tentativaDeLogin);
 }
 
+function volta(){
+    window.open("./main.html","_self");
+}
 
 function cadastra(){
     window.open("./cadastro.html","_self");
