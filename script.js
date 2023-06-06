@@ -5,12 +5,11 @@ let tentativaDeLogin = 3;
 function logar() {
     let login = document.getElementById("login").value;
     let senha = document.getElementById("senha").value;
-    let cargo = document.getElementsByName("cargo")[0].value;
-    verificaLogin(cargo,senha,login);
+    verificaLogin(senha,login);
 }
 
-function verificaLogin(cargo, senha, login){
-    if (cargo === "administrador" && senha === "admin" && login === "admin") {
+function verificaLogin(senha, login){
+    if (senha === "admin" && login === "admin") {
         window.open("./main.html","_self");
     }else{
         alert("Login ou senha incorretos " + (tentativaDeLogin-1) + " Tentativas restantes");
