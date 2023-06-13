@@ -16,6 +16,7 @@ function verificaLogin(senha, login){
         tentativaDeLogin--;
         if(tentativaDeLogin === 0){
             alert("Conta bloqueada");
+            window.open("./main.html","_self");
             window.close();
         }
     }
